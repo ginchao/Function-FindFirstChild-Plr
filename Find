@@ -1,0 +1,9 @@
+local function find(se)
+for i, v in pairs(game.Players:GetChildren()) do
+if v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "hung2k9299" or v.Name == "hg9283y" then
+se = v.Name
+print("⭐"..se)
+end
+end
+return se
+end

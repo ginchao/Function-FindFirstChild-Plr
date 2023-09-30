@@ -5,5 +5,5 @@ se = v.Name
 end
 end
 end
-print("⭐"..find())
+print("⭐"..find)
 return find()

@@ -1,7 +1,9 @@
+local whilelist = {"ginchao12","Quanphan01299","ZzKenKK1","TimeoSamuell","roxblox_1238","mingcc15562","thinhbietha0ck","nanhshshhhshsgs","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","DHP_dung1999"}
 function find(se)
-for i, v in pairs(game.Players:GetChildren()) do
-if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "TimeoSamuell" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" or v.Name == "Thanhnha161" or v.Name == "khl01921" then
-se = v.Name
+for i, v in pairs(whilelist) do
+if game:GetService("Players").LocalPlayer.Name == v then
+se = v
+print("⭐"..v)
 end
 end
 return se

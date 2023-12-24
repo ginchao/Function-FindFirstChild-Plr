@@ -1,11 +1,30 @@
+local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
+
+--ginchao 3638cd7a-fd61-4bef-9c5e-afe3934a1111
+
 local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111"}
-function find(se)
+function hwid(se)
 for i, v in pairs(whilelist) do
-if game:GetService("RbxAnalyticsService"):GetClientId() == v then
+if whilelist2  == v then
 se = v
-print("⭐"..v)
+print("⭐"..game.Players.LocalPlayer.Name)
+else
+game.Players.LocalPlayer.Kick("Sai HWID")
 end
 end
 return se
 end
-return find()
+return hwid()
+
+
+
+
+
+
+
+
+
+
+
+
+

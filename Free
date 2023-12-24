@@ -9,7 +9,7 @@ if whilelist2  == v then
 se = v
 print("⭐"..game.Players.LocalPlayer.Name)
 else
-game.Players.LocalPlayer.Kick("Sai HWID")
+game.Players.LocalPlayer:Kick("Sai HWID")
 end
 end
 return se

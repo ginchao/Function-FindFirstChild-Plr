@@ -1,7 +1,7 @@
 local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111"}
 function find(se)
 for i, v in pairs(whilelist) do
-if game:GetService("Players").LocalPlayer.Name == v then
+if game:GetService("RbxAnalyticsService"):GetClientId() == v then
 se = v
 print("⭐"..v)
 end

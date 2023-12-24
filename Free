@@ -1,15 +1,15 @@
 local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 
 --ginchao 3638cd7a-fd61-4bef-9c5e-afe3934a1111
-
-local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111"}
+--BAKI 455a82f2-5fd9-4f75-95de-0df525559c94
+--Lion 492c88cb-3e2d-4263-b5bb-613989f97ebc
+--Bi 08d98d99-f6c7-4c35-8824-e28509a84d59
+local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111","455a82f2-5fd9-4f75-95de-0df525559c94","492c88cb-3e2d-4263-b5bb-613989f97ebc","08d98d99-f6c7-4c35-8824-e28509a84d59"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 if whilelist2  == v then
 se = v
 print("⭐"..game.Players.LocalPlayer.Name)
-else
-game.Players.LocalPlayer:Kick("Sai HWID")
 end
 end
 return se

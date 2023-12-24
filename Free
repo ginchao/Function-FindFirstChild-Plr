@@ -1,10 +1,11 @@
 local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
-
+--banhbao 2d1734aa-f68d-4e95-8143-4cefca217c17
 --ginchao 3638cd7a-fd61-4bef-9c5e-afe3934a1111
 --BAKI 455a82f2-5fd9-4f75-95de-0df525559c94
 --Lion 492c88cb-3e2d-4263-b5bb-613989f97ebc
 --Bi 08d98d99-f6c7-4c35-8824-e28509a84d59
-local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111","455a82f2-5fd9-4f75-95de-0df525559c94","492c88cb-3e2d-4263-b5bb-613989f97ebc","08d98d99-f6c7-4c35-8824-e28509a84d59"}
+--thinh e09f369a-8a27-4c6f-a4b9-68a01953c26f
+local whilelist = {"3638cd7a-fd61-4bef-9c5e-afe3934a1111","455a82f2-5fd9-4f75-95de-0df525559c94","492c88cb-3e2d-4263-b5bb-613989f97ebc","08d98d99-f6c7-4c35-8824-e28509a84d59","2d1734aa-f68d-4e95-8143-4cefca217c17","e09f369a-8a27-4c6f-a4b9-68a01953c26f"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 if whilelist2  == v then

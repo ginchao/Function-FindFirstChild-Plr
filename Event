@@ -1,3 +1,4 @@
+local function event()
 local serv = win:Server("Premium Buyer", "rbxassetid://15895254052")
 local count = 0
 local drops = serv:Channel("Event 🌟 Đã Tăng Tỉ Lệ Ra")
@@ -70,3 +71,5 @@ end
 end)
 drops:Seperator()
 drops:Label("Rớt Item Sẽ Hiện Bên Dưới ↓:")
+end
+return event()

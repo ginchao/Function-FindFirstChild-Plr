@@ -2,7 +2,7 @@ local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 --ngoibui22 d2c7d474-cba4-4e4a-be8e-b8407cfaa256
 --ginchao ad36361b-0484-446b-94b8-c72dae2418fd
 --BAKI 455a82f2-5fd9-4f75-95de-0df525559c94
---Lion 4863a99e-6f27-4e0d-a2aa-767629ebb85d
+--Lion ab8782f9-dc9f-4f35-8b2d-13e49fa27f7b
 --Bi 56e1d68d-8d20-4a9c-9250-d3059049aac4
 --thinh 68577bf4-cdf7-4a18-b3d8-732fcd4117ec
 --tai 5445b37a-d58c-42ac-b0f8-9104ae34e3e6
@@ -12,7 +12,7 @@ local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 --hieu 975c818b-662f-4033-ba24-ee9ff3d6f868
 --quangdung 358f58fc-5a9d-478b-9394-7ed35ffb396a
 --trantu a4cf01c1-ded3-40a9-addf-44900cac240c
-local whilelist = {"7b027832-1fa0-4ce7-9a51-138d6eb0c95d","975c818b-662f-4033-ba24-ee9ff3d6f868","ad36361b-0484-446b-94b8-c72dae2418fd","358f58fc-5a9d-478b-9394-7ed35ffb396a","a4cf01c1-ded3-40a9-addf-44900cac240c","d2c7d474-cba4-4e4a-be8e-b8407cfaa256","56e1d68d-8d20-4a9c-9250-d3059049aac4"}
+local whilelist = {"7b027832-1fa0-4ce7-9a51-138d6eb0c95d","975c818b-662f-4033-ba24-ee9ff3d6f868","ad36361b-0484-446b-94b8-c72dae2418fd","358f58fc-5a9d-478b-9394-7ed35ffb396a","a4cf01c1-ded3-40a9-addf-44900cac240c","d2c7d474-cba4-4e4a-be8e-b8407cfaa256","56e1d68d-8d20-4a9c-9250-d3059049aac4","ab8782f9-dc9f-4f35-8b2d-13e49fa27f7b"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 if whilelist2  == v then

@@ -4,7 +4,7 @@ local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 --BAKI 455a82f2-5fd9-4f75-95de-0df525559c94
 --Lion ab8782f9-dc9f-4f35-8b2d-13e49fa27f7b
 --Bi 56e1d68d-8d20-4a9c-9250-d3059049aac4
---thinh c60a12f3-0d4e-4f44-8a3f-0bf9794abddd
+--thinh b01f9b7b-551e-4cec-9d72-0005cfa3e6ec
 --tai 5445b37a-d58c-42ac-b0f8-9104ae34e3e6
 --vinhquang aca36b62-8b6c-4f34-9a00-4dbca84075e6
 --vduy 435b3796-f8eb-4a06-8f37-1111aba9d41e
@@ -12,7 +12,7 @@ local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 --hieu 975c818b-662f-4033-ba24-ee9ff3d6f868
 --quangdung 358f58fc-5a9d-478b-9394-7ed35ffb396a
 --pao eeb93184-dfb3-4858-a64c-11901225ea81
-local whilelist = {"cbfef8a4-a063-40ea-a202-5862128b5b1d","975c818b-662f-4033-ba24-ee9ff3d6f868","ad36361b-0484-446b-94b8-c72dae2418fd","358f58fc-5a9d-478b-9394-7ed35ffb396a","a4cf01c1-ded3-40a9-addf-44900cac240c","d2c7d474-cba4-4e4a-be8e-b8407cfaa256","56e1d68d-8d20-4a9c-9250-d3059049aac4","ab8782f9-dc9f-4f35-8b2d-13e49fa27f7b","c60a12f3-0d4e-4f44-8a3f-0bf9794abddd","eeb93184-dfb3-4858-a64c-11901225ea81"}
+local whilelist = {"cbfef8a4-a063-40ea-a202-5862128b5b1d","975c818b-662f-4033-ba24-ee9ff3d6f868","ad36361b-0484-446b-94b8-c72dae2418fd","358f58fc-5a9d-478b-9394-7ed35ffb396a","a4cf01c1-ded3-40a9-addf-44900cac240c","d2c7d474-cba4-4e4a-be8e-b8407cfaa256","56e1d68d-8d20-4a9c-9250-d3059049aac4","ab8782f9-dc9f-4f35-8b2d-13e49fa27f7b","b01f9b7b-551e-4cec-9d72-0005cfa3e6ec","eeb93184-dfb3-4858-a64c-11901225ea81"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 if whilelist2  == v then

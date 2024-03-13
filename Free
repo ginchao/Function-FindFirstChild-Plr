@@ -12,7 +12,7 @@ local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 --hieu 975c818b-662f-4033-ba24-ee9ff3d6f868
 --quangdung 358f58fc-5a9d-478b-9394-7ed35ffb396a
 --pao eeb93184-dfb3-4858-a64c-11901225ea81
-local whilelist = {"63bc3214-d2d0-4fb1-a91a-f51dccfc46e3","89dc9fd3-8de7-4be8-a199-1bc417e58288"}
+local whilelist = {"63bc3214-d2d0-4fb1-a91a-f51dccfc46e3","89dc9fd3-8de7-4be8-a199-1bc417e58288","dfe56665-2a09-44da-992f-2a4934e486fc"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 if whilelist2  == v then

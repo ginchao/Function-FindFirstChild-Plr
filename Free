@@ -10,6 +10,7 @@ se = v
 print("⭐"..game.Players.LocalPlayer.Name)
 end
 end
+end
 return se
 end
 return hwid()

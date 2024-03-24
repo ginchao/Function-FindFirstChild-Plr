@@ -5,7 +5,7 @@ local whilelist = {"63bc3214-d2d0-4fb1-a91a-f51dccfc46e3","89dc9fd3-8de7-4be8-a1
 function hwid(se)
 for i, v in pairs(whilelist) do
 for i, v2 in pairs(whilelist3) do
-if whilelist2  == v or NW == v2.Name then
+if whilelist2  == v or NW.Name == v2 then
 se = v
 print("⭐"..NW.Name)
 end

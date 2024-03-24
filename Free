@@ -7,7 +7,7 @@ for i, v in pairs(whilelist) do
 for i, v2 in pairs(whilelist3) do
 if whilelist2  == v or NW == v2.Name then
 se = v
-print("⭐"..game.Players.LocalPlayer.Name)
+print("⭐"..NW.Name)
 end
 end
 end

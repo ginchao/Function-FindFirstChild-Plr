@@ -1,7 +1,7 @@
 local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
-local whilelist3 = {"ginchao12","Quanphan01299","ZzKenKK1","TimeoSamuell","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","DHP_dung1999","Rex_features","chuondien29","Gojosotar5","baconbanhvong","newbereal","TamN3R_xX"}
+local whilelist3 = {"ginchao12","Quanphan01299","ZzKenKK1","TimeoSamuell","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","DHP_dung1999","Rex_features","chuondien29","Gojosotar5","baconbanhvong","newbereal",""}
 local NW = game:GetService("Players").LocalPlayer
-local whilelist = {""}
+local whilelist = {"9a08e2b3-c678-40ea-a410-1075011e69fa"}
 function hwid(se)
 for i, v in pairs(whilelist) do
 for i, v2 in pairs(whilelist3) do

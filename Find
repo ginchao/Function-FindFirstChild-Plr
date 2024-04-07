@@ -1,4 +1,4 @@
-local whilelist = {"ginchao12","Quanphan01299","ZzKenKK1","TimeoSamuell","roxblox_1238","mingcc15562","thinhbietha0ck","nanhshshhhshsgs","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","DHP_dung1999","Rex_features","chuondien29"}
+local whilelist = {""}
 function find(se)
 for i, v in pairs(whilelist) do
 if game:GetService("Players").LocalPlayer.Name == v then

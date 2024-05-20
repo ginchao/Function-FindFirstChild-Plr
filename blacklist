@@ -1,6 +1,6 @@
 local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
 local blacklist = {"9a6d48cb-b934-4b75-8fbb-6bda22b48afe","9a6d48cb-b934-4b75-8fbb-6bda22b48afe","044806b7-433e-402a-9107-1361d919440a"}
-local bln = {"khl0192","ginchao",""}
+local bln = {"khl0192","ginchao12",""}
 function hwid(se)
 for i, v in pairs(blacklist) do
 for i, c in pairs(bln) do

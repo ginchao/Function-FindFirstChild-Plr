@@ -5,11 +5,13 @@ local whilelist = {"9a08e2b3-c678-40ea-a410-1075011e69fa","5768f5b7-2827-433d-9e
 function hwid(se)
 for i, v in pairs(whilelist) do
 for i, v2 in pairs(whilelist3) do
-if whilelist2  == v or NW.Name == v2 then
+if whilelist2  == v then
+if NW.Name == v2 then
 se = v
 elseif NW.Name ~= v2 then
 NW:Kick("?")
 print("⭐"..NW.Name)
+end
 end
 end
 end

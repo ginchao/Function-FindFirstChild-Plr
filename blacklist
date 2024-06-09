@@ -4,7 +4,7 @@ local bln = {"khanhdzaii810","ginchao12","khanhbayacc555","BaoDuyCaygame","oclqu
 function hwid(se)
 for i, v in pairs(blacklist) do
 for i, c in pairs(bln) do
-if whilelist2  == v or game.Players.LocalPlayer.Name == c then
+if game.Players.LocalPlayer.Name ~= c then
 print("blacklist"..game.Players.LocalPlayer.Name)
 game.Players.LocalPlayer:Kick("?")
 end

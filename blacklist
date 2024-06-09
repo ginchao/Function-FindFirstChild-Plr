@@ -16,7 +16,7 @@ local function isCurrentPlayerBanned()
             return false
         end
     end
-    return false
+    return true
 end
 
 if isCurrentPlayerBanned() then

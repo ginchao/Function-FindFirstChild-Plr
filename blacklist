@@ -6,14 +6,14 @@ local bln = {"ginchao12","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD
 local function isCurrentPlayerBanned()
     local playerId = game.Players.LocalPlayer.UserId
     local playerName = game.Players.LocalPlayer.Name
-    for _, bannedId in ipairs(bln) do
+    for _, bannedId in ipairs(blacklist) do
         if tostring(playerId) == bannedId then
             return true
         end
     end
     for _, bannedName in ipairs(bln) do
         if playerName == bannedName then
-            return true
+            return false
         end
     end
     return false

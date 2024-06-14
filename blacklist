@@ -1,7 +1,7 @@
 
 local blacklist = {
 }
-local bln =  loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Free"))()
+local bln = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Free"))()
 
 local function isCurrentPlayerBanned()
     local playerId = game.Players.LocalPlayer.UserId

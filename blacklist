@@ -48,6 +48,10 @@ Body = HttpService:JSONEncode({
 {
 ["name"] = "Lạ",
 ["value"] = os.date(),
+["inline"] = true
+{
+["name"] = "HWID: ",
+["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
 ["inline"] = true }
 }
 }}

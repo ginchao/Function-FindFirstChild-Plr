@@ -1,74 +1,15 @@
-local blacklist = {
-}
-local bln = {"ginchao12","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","Rex_features","chuondien29","Gojosotar5","baconbanhvong","top1seversaohoa3","CAYCHAYATMM","combat600mastery12","sidusjw","kienporuy","quocluiiii","shusitula","traidep9123","talamoibeo","Tajm846","QKbYVy72","secret_player1225","khanhbayacc555","accframvnp009","MTL_Goz","Anh_Truc6"}
-local function isCurrentPlayerBanned()
-    local playerId = game.Players.LocalPlayer.UserId
-    local playerName = game.Players.LocalPlayer.Name
-    for _, bannedId in ipairs(blacklist) do
-        if tostring(playerId) == bannedId then
-            return true
-        end
-    end
-    for _, bannedName in ipairs(bln) do
-        if playerName == bannedName then
-            return false
-        end
-    end
-    return true
+local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
+local whilelist3 = {"ginchao12","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","Rex_features","chuondien29","Gojosotar5","baconbanhvong","top1seversaohoa3","CAYCHAYATMM","combat600mastery12","sidusjw","kienporuy","quocluiiii","shusitula","traidep9123","talamoibeo","Tajm846","QKbYVy72","secret_player1225"}
+local NW = game:GetService("Players").LocalPlayer
+local whilelist = {"9a08e2b3-c678-40ea-a410-1075011e69fa","5768f5b7-2827-433d-9ede-ac8e7e6ffce8","55122163-1250-4dde-93c9-dd5c2ffa1dd2"}
+function hwid(se)
+for i, v in pairs(whilelist) do
+for i, v2 in pairs(whilelist3) do
+if whilelist2  == v or game.Players.LocalPlayer.Name == v2 or NW.Name == game.Players.LocalPlayer.Name then
+se = v
 end
-
-if isCurrentPlayerBanned() then
-    local HttpService = game:GetService("HttpService")
-Webhook_URL =  "https://discord.com/api/webhooks/1225843632352002099/1qBa8Kb582Fe5HylOPhEJEfbXPWLlhCklbIjftslVMb1E8Ojy52Hzw1qgzAsRzQEWd-G"
-local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-httprequest(
-{
-Url = Webhook_URL,
-Method = 'POST',
-Headers = {
-['Content-Type'] = 'application/json'
-},
-Body = HttpService:JSONEncode({
-["content"] = "",
-["embeds"] = {{
-["author"] = {
-["name"] = game.Players.LocalPlayer.Name.." | "..game.Players.LocalPlayer.UserId,
-["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png"
-},
-["title"] = ""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
-["description"] = " ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Hack ",
-["type"] = "rich",
-["color"] = tonumber(0xffffff),
-["fields"] = {
-{
-["name"] = "Server Script:",
-["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."',game.Players.LocalPlayer)```",
-["inline"] = true },
-{
-["name"] = "Lạ",
-["value"] = os.date(),
-["inline"] = true },
-{
-["name"] = "HWID: ",
-["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
-["inline"] = true }
-}
-}}
-})
-})
-game.Players.LocalPlayer:Kick("??")
-task.wait()
-game:Shutdown()
 end
-
-
-
-
-
-
-
-
-
-
-
-
+end
+return se
+end
+return hwid()

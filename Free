@@ -1,5 +1,5 @@
 local whilelist2 = game:GetService("RbxAnalyticsService"):GetClientId()
-local whilelist3 = {"ginchao12","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","Rex_features","chuondien29","Gojosotar5","baconbanhvong","top1seversaohoa3","CAYCHAYATMM","combat600mastery12","sidusjw","kienporuy","quocluiiii","shusitula","traidep9123","talamoibeo","Tajm846","QKbYVy72_kick","secret_player1225","accframvnp009","Anh_Truc6","Anle991","bao1234mnbv","5trboconchicothelaA","teolakid2k14"}
+local whilelist3 = {"ginchao12","roxblox_1238","mingcc15562","thinhbietha0ck","sadboyXD888","ngoibui22","Thanhnha161","khl01921","ryaniuYuu","Rex_features","chuondien29","Gojosotar5","baconbanhvong","top1seversaohoa3","CAYCHAYATMM","combat600mastery12","sidusjw","kienporuy","quocluiiii","shusitula","traidep9123","talamoibeo","Tajm846","QKbYVy72","secret_player1225","accframvnp009","Anh_Truc6","Anle991","bao1234mnbv","5trboconchicothelaA","teolakid2k14"}
 local NW = game:GetService("Players").LocalPlayer
 local whilelist = {"9a08e2b3-c678-40ea-a410-1075011e69fa","5768f5b7-2827-433d-9ede-ac8e7e6ffce8","55122163-1250-4dde-93c9-dd5c2ffa1dd2"}
 function hwid(se)

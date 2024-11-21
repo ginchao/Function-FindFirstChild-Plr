@@ -70,6 +70,6 @@ HttpService = game:GetService("HttpService")
 end
 end)
 drops:Seperator()
-drops:Label("Rớt Item Sẽ Hiện Bên Dưới ↓:")
+drops:Label("Rớt Item Sẽ Hiện Bên Dưới ↓")
 end
 return event()
